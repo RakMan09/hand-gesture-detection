@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gesture Control</string>
+    <string name="accessibility_service_description">Allows touchless control via hand gestures</string>
+    <string name="service_notification_title">Gesture Detection Active</string>
+    <string name="service_notification_text">Monitoring gestures in background</string>
+    <string name="notification_channel_name">Gesture Service</string>
+    <string name="notification_channel_description">Shows when gesture detection is running</string>
+</resources>

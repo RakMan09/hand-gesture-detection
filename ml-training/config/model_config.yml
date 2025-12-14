@@ -1,0 +1,18 @@
+model:
+  input_shape: [1, 21, 3]  # 21 hand landmarks
+  num_classes: 5            # Number of gesture types
+  dense_units: [128, 64]
+  dropout: 0.3
+
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  validation_split: 0.2
+
+gestures:
+  - "thumbs_up"
+  - "peace_sign"
+  - "fist"
+  - "open_palm"
+  - "pointing"
